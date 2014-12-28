@@ -26,8 +26,8 @@ public class GroundBreakingMoment extends Activity {
 				@Override
 				public void onClick(View v) {
 					// Not ready
-					//Intent prarie = new Intent(GroundBreakingMoment.this, PrarieActivity.class);
-					//startActivity( prarie );
+					//Intent prairie = new Intent(GroundBreakingMoment.this, PrarieActivity.class);
+					//startActivity( prairie );
 				}
 			}
 		);

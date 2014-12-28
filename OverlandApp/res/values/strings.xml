@@ -3,6 +3,11 @@
 
     <string name="app_name">OverlandApp</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="overlandWeb">Click here for website</string>
+    <string name="announcements">	Hello World!</string>
+    
+    <string name="url_overland">http://overland.cherrycreekschools.org/Pages/default.aspx</string>
+    <string name="url_powerschool">https://powerschool.cherrycreekschools.org/public/</string>
+    <string name="url_athletics">http://www.overlandathletics.org/</string>
 
 </resources>

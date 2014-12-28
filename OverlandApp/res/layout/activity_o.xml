@@ -1,16 +1,167 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".OActivity" >
+    android:orientation="vertical"
+    tools:context=".OActivity"
+    android:background="@drawable/ohsbackground_640x960" >
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="150"
+        android:text="@string/announcements" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="140" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40" />
+    
+    <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_weight="50"
+	    android:columnCount="4"
+	    android:rowCount="3"
+	    android:layout_gravity="center_horizontal"
+	    android:alignmentMode="alignBounds"
+	    android:orientation="horizontal" >
+        
+        <ImageButton
+		    android:id="@+id/bellschedule"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/bellschedulesbtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/calendars"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/calendarsbtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/clubs"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/clubsbtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/contact"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/contactbtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/counselors"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/counselorsbtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/lunchmenu"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/lunchmenubtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/notifications"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/notificationsbtn_130x150"/>
+        
+		<ImageButton
+		    android:id="@+id/pointsofpride"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/pointsofpridebtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/powerschool"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/powerschoolbtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/seniors"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/seniorsbtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/sports"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/sportsbtn_130x150"/>
+        
+        <ImageButton
+		    android:id="@+id/staff"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:adjustViewBounds="true"
+        	android:cropToPadding="false"
+        	android:scaleType="fitXY"
+     		android:layout_columnSpan="1"
+     		android:layout_rowSpan="1"
+    		android:src="@drawable/staffdirectorybtn_130x150"/>
+        
+    </GridLayout>
 
-</RelativeLayout>
+</LinearLayout>
