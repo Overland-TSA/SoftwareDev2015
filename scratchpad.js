@@ -70,7 +70,7 @@ function main(depname) {
   
   for (var i=1; i<rows.length; i++) {
     contact = rows[i]
-    contactStrings = contact.textContent.split("\n");
+    contactStrings = [contact.children[0].textContent, contact.children[1].textContent, contact.children[2].textContent]
     
     staff = new Person(
       contactStrings[0].split(", coordinator")[0],
