@@ -5,7 +5,7 @@
  <string name="grandchamp_name">Ms. Chelsea Grandchamp</string>
  <string name="otis_name">Mr. Mark Otis</string>
  <string name="houck_name">Ms. Tasha Houck</string>
- <string name="pineda_name">Ms. Alli Pineda</string>
+ <string name="pineda_ali_name">Ms. Alli Pineda</string>
  <string name="fredericks_name">Ms. Diane Fredericks</string>
  <string name="szenderski_name">Ms. ​Stacey Szenderski</string>
  <string name="hughes_name">Ms. ​Annie Johnson-Hughes</string>
@@ -18,7 +18,7 @@
  <string name="grandchamp_email">cgrandchamp@cherrycreekschools.org</string>
  <string name="otis_email">motis@cherrycreekschools.org</string>
  <string name="houck_email">thouck@cherrycreekschools.org</string>
- <string name="pineda_email">apineda6@cherrycreekschools.org</string>
+ <string name="pineda_ali_email">apineda6@cherrycreekschools.org</string>
  <string name="fredericks_email">dguidrozfredericks@cherrycreekschools.org​</string>
  <string name="szenderski_email">sszenderski2@cherrycreekschools.org</string>
  <string name="hughes_email">ajohnsonhughes@cherrycreekschools.org</string>
@@ -31,7 +31,7 @@
  <string name="grandchamp_phone">​720.747.3714</string>
  <string name="otis_phone">​720.747.3741</string>
  <string name="houck_phone">​720.747.3632</string>
- <string name="pineda_phone">​720.747.3735</string>
+ <string name="pineda_ali_phone">​720.747.3735</string>
  <string name="fredericks_phone">720.747.3690</string>
  <string name="szenderski_phone">720.747.3461</string>
  <string name="hughes_phone">​​720.747.3747</string>

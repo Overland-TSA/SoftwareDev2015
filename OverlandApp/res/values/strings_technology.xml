@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lindemann_name">Ben Lindemann</string>
+<string name="lindemann_phone">720.747.3721</string>
+<string name="lindemann_email">blindemann@cherrycreekschools.org</string>
+<string name="dalton_name">Bert Dalton</string>
+<string name="dalton_phone">720.747.3787</string>
+<string name="dalton_email">bdalton@cherrycreekschools.org</string>
+<string name="gartner_name">Bryce Gartner</string>
+<string name="gartner_phone">720.747.3929</string>
+<string name="gartner_email">bgartner2@cherrycreekschools.org</string>
+<string name="gregg_name">Debbie Gregg</string>
+<string name="gregg_phone">720.747.3482</string>
+<string name="gregg_email">dgregg2@cherrycreekschools.org</string>
+<string name="kitzman_name">Leslee Kitzman</string>
+<string name="kitzman_phone">720.747.3444</string>
+<string name="kitzman_email">lkitzman@cherrycreekschools.org</string>
+<string name="lacour_name">Dave LaCour</string>
+<string name="lacour_phone">720.747.3849</string>
+<string name="lacour_email">dlacour@cherrycreekschools.org</string>
+<string name="mcdonnell_name">Kate McDonnell</string>
+<string name="mcdonnell_phone">720.747.3470</string>
+<string name="mcdonnell_email">kmcdonnell2@cherrycreekschools.org</string>
+<string name="simon_name">Henry Simon??hsimon3@cherrycreekschools.org?</string>
+<string name="simon_phone">720.747.----</string>
+<string name="simon_email">hsimon3@cherrycreekschools.org</string>
+<string name="suchman_name">Joe Suchman</string>
+<string name="suchman_phone">303.564.6272</string>
+<string name="suchman_email">jsuchman@cherrycreekschools.org</string>
+</resources>
