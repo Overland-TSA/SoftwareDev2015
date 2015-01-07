@@ -24,55 +24,56 @@ public class StaffListFragment extends ListFragment {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.getActivity().setTitle(R.string.staff_title);
-		this.mStaffs = StaffList.get(getActivity()).getStaff();
+		this.mStaffs = StaffList.get(getActivity()).getStaffs();
 		
 		// Make this adapter do all the work
 		// to display all elements in an array as TextViews
-		CrimeAdapter adapter = new CrimeAdapter(this.mCrimes);
+		StaffAdapter adapter = new StaffAdapter(this.mStaffs);
 		this.setListAdapter(adapter);
 	}
 	
 	@Override
 	public void onResume() {
 		super.onResume();
-		((CrimeAdapter)getListAdapter()).notifyDataSetChanged();
+		((StaffAdapter)getListAdapter()).notifyDataSetChanged();
 	}
 	
 	@Override
 	public void onListItemClick(ListView l, View v, int position, long id) {
-		// Get Crime from the adapter
-		Crime c = ((CrimeAdapter)super.getListAdapter()).getItem(position);
+		// Get Staff from the adapter
+		Staff s = ((StaffAdapter)super.getListAdapter()).getItem(position);
 		
-		// Start a CrimePagerActivity (with this crime)
-		Intent i = new Intent(super.getActivity(), CrimePagerActivity.class);
-		i.putExtra(CrimeFragment.EXTRA_CRIME_ID, c.getId());
+		// Start a StaffPagerActivity (with this Staff)
+		startActivity( new Intent(super.getActivity(), BellScheduleActivity.class) );
+		Intent i = new Intent(super.getActivity(), StaffPagerActivity.class);
+		i.putExtra(StaffFragment.EXTRA_STAFF_ID, s.getId());
 		super.startActivity(i);
 	}
 	
 	// Inner class
-	private class CrimeAdapter extends ArrayAdapter<Crime> {
+	private class StaffAdapter extends ArrayAdapter<Staff> {
 		
-		public CrimeAdapter (ArrayList<Crime> crimes) {
-			super(getActivity(), 0, crimes);
+		public StaffAdapter (ArrayList<Staff> staffs) {
+			super(getActivity(), 0, staffs);
 		}
 		
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			// If we weren't given a view, inflate one
 			if (convertView == null) {
-				convertView = getActivity().getLayoutInflater().inflate(R.layout.list_item_crime, null);
+				convertView = getActivity().getLayoutInflater().inflate(R.layout.list_item_staff, null);
 			}
 			
-			// Configure the view for this Crime
-			Crime c = getItem(position);
+			// Configure the view for this Staff
+			Staff s = getItem(position);
 			
-			TextView titleTextView = (TextView) convertView.findViewById(R.id.crime_list_item_titleTextView);
+			TextView titleTextView = (TextView) convertView.findViewById(R.id.staff_list_item_titleTextView);
 				titleTextView.setText(c.getTitle());
 				
-			TextView dateTextView = (TextView) convertView.findViewById(R.id.crime_list_item_dateTextView);
+			TextView dateTextView = (TextView) convertView.findViewById(R.id.staff_list_item_dateTextView);
 				dateTextView.setText(c.getDate().toString());
 				
-			CheckBox solvedCheckBox = (CheckBox) convertView.findViewById(R.id.crime_list_item_solvedCheckBox);
+			CheckBox solvedCheckBox = (CheckBox) convertView.findViewById(R.id.staff_list_item_solvedCheckBox);
 				solvedCheckBox.setChecked(c.isSolved());
 			
 			// Return the configured view

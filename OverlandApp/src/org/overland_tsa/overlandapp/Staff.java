@@ -1,8 +1,11 @@
 package org.overland_tsa.overlandapp;
 
+import java.util.UUID;
+
 public class Staff {
 	
 	// attributes
+	private UUID mId;
 	private String name;
 	private String email;
 	private String phone;
@@ -10,11 +13,18 @@ public class Staff {
 	
 	// Staff constructor
 	public Staff(String name, String email, String phone, String department) {
+		this.mId = UUID.randomUUID();
 		this.name = name;
 		this.email = email;
 		this.phone = phone;
 		this.department = department;
 	}
+	
+	//Get ID
+	public UUID getId() {
+		return mId;
+	}
+	
 	
 	// toString method
 	public String toString() {

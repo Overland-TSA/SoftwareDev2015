@@ -6,40 +6,40 @@ import java.util.UUID;
 import android.content.Context;
 
 public class StaffList {
-	private static StaffList sCrimeLab;
+	private static StaffList sStaffList;
 	private Context mAppContext;
 	
-	private ArrayList<Crime> mCrimes;
+	private ArrayList<Staff> mStaffs;
 	
 	private StaffList(Context appContext) {
 		this.mAppContext = appContext;
-		this.mCrimes = new ArrayList<Crime>();
+		this.mStaffs = new ArrayList<Staff>();
 		
-		// generate some crimes
+		// generate some Staffs
 		for (int i=0; i<100; i++) {
-			Crime c = new Crime();
-			c.setTitle("Crime #" + i);
-			c.setSolved(i%2 == 0);	// Every other one
-			mCrimes.add(c);
+			Staff s = new Staff();
+			s.setTitle("Staff #" + i);
+			s.setSolved(i%2 == 0);	// Every other one
+			mStaffs.add(s);
 		}
 	}
 	
 	public static StaffList get(Context c) {
-		if (sCrimeLab == null) {
-			sCrimeLab = new StaffList(c.getApplicationContext());
+		if (sStaffList == null) {
+			sStaffList = new StaffList(c.getApplicationContext());
 		}
 		
-		return sCrimeLab;
+		return sStaffList;
 	}
 
-	public ArrayList<Crime> getCrimes() {
-		return mCrimes;
+	public ArrayList<Staff> getStaffs() {
+		return mStaffs;
 	}
 	
-	public Crime getCrime(UUID id) {
-		for (Crime c : mCrimes) {
-			if (c.getId().equals(id)) {
-				return c;
+	public Staff getStaff(UUID id) {
+		for (Staff s : mStaffs) {
+			if (s.getId().equals(id)) {
+				return s;
 			}
 		}
 		return null;
