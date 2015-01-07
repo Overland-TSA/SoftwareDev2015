@@ -1,0 +1,457 @@
+strings_avid.xml
+
+<string name="schickling_name">Kara Schickling</string>
+<string name="schickling_phone">720.747.3610</string>
+<string name="schickling_email">kschickling@cherrycreekschools.org</string>
+<string name="kendrick_name">Lara Kendrick</string>
+<string name="kendrick_phone">720.747.3757</string>
+<string name="kendrick_email">lkendrick2@cherrycreekschools.org</string>
+<string name="malone_name">Shealyn Malone</string>
+<string name="malone_phone">720.747.3494</string>
+<string name="malone_email">smalone7@cherrycreekschools.org</string>
+
+
+strings_business_facs.xml
+
+<string name="ord_name">Patti Ord</string>
+<string name="ord_phone">720.747.3827</string>
+<string name="ord_email">pord@cherrycreekschools.org</string>
+<string name="campos-brown_name">Rallie Campos-Brown</string>
+<string name="campos-brown_phone">720.747.3753</string>
+<string name="campos-brown_email">ocampos-brown@cherrycreekschools.org</string>
+<string name="lacour_name">Deb LaCour</string>
+<string name="lacour_phone">720.747.3866</string>
+<string name="lacour_email">dlacour2@cherrycreekschools.org</string>
+<string name="o'riley_name">Patrick O'Riley</string>
+<string name="o'riley_phone">720.747.3852</string>
+<string name="o'riley_email">poriley@cherrycreekschools.org</string>
+<string name="ocaña_name">Roberto Ocaña</string>
+<string name="ocaña_phone">720.747.3850</string>
+<string name="ocaña_email">rocana2@cherrycreekschools.org</string>
+
+
+strings_ela.xml
+
+<string name="hofmann_name">Julie Hofmann</string>
+<string name="hofmann_phone">720.747.3612</string>
+<string name="hofmann_email">jhofmann4@cherrycreekschools.org</string>
+<string name="marietta_name">Lori Marietta</string>
+<string name="marietta_phone">720.747.3623</string>
+<string name="marietta_email">lmarietta@cherrycreekschools.org</string>
+<string name="tomashuk_name">Yaroslav Tomashuk</string>
+<string name="tomashuk_phone">720.747.3823</string>
+<string name="tomashuk_email">ytomashuk@cherrycreekschools.org</string>
+
+
+strings_english.xml
+
+<string name="ullrich_name">Marie Ullrich</string>
+<string name="ullrich_phone">720.747.3776</string>
+<string name="ullrich_email">bullrich3@cherrycreekschools.org</string>
+<string name="barocas_name">Danny Barocas</string>
+<string name="barocas_phone">720.747.3843</string>
+<string name="barocas_email">dbarocas2@cherrycreekschools.org</string>
+<string name="baur_name">Jake Baur</string>
+<string name="baur_phone">720.747.3596</string>
+<string name="baur_email">jbaur4@cherrycreekschools.org</string>
+<string name="bludeau_name">Ginny Bludeau</string>
+<string name="bludeau_phone">720.747.3725</string>
+<string name="bludeau_email">vbludeau@cherrycreekschools.org</string>
+<string name="carmody_name">Kate Carmody</string>
+<string name="carmody_phone">720.747.3773</string>
+<string name="carmody_email">ccarmody@cherrycreekschools.org</string>
+<string name="guagliardo_name">Nicci Guagliardo</string>
+<string name="guagliardo_phone">720.747.3755</string>
+<string name="guagliardo_email">nguagliardo@cherrycreekschools.org</string>
+<string name="helfant_name">Steve Helfant</string>
+<string name="helfant_phone">720.747.3870</string>
+<string name="helfant_email">shelfant@cherrycreekschools.org</string>
+<string name="kirkpatrick_name">Jenny Kirkpatrick</string>
+<string name="kirkpatrick_phone">720.747.3490</string>
+<string name="kirkpatrick_email">jkirkpatrick6@cherrycreekschools.org</string>
+<string name="korth_name">Jeni Korth</string>
+<string name="korth_phone">720.747.3869</string>
+<string name="korth_email">jmccoy8@cherrycreekschools.org</string>
+<string name="landen_name">Kelly Landen</string>
+<string name="landen_phone">720.747.3781</string>
+<string name="landen_email">klanden@cherrycreekschools.org</string>
+<string name="pineda_name">Mike Pineda</string>
+<string name="pineda_phone">720.747.3777</string>
+<string name="pineda_email">mpineda2@cherrycreekschools.org</string>
+<string name="razavi_name">Adrienne Razavi</string>
+<string name="razavi_phone">720.747.3725</string>
+<string name="razavi_email">arazavi@cherrycreekschools.org</string>
+<string name="reyes_name">Tim Reyes</string>
+<string name="reyes_phone">720.747.3774</string>
+<string name="reyes_email">treyes@cherrycreekschools.org</string>
+<string name="rodriguez_name">Sheryl Rodriguez</string>
+<string name="rodriguez_phone">720.747.3856</string>
+<string name="rodriguez_email">srodriguez12@cherrycreekschools.org</string>
+<string name="schiavone_name">Theresa Schiavone</string>
+<string name="schiavone_phone">720.747.3775</string>
+<string name="schiavone_email">tschiavone-guru@cherrycreekschools.org</string>
+<string name="sense_name">Andy Sense</string>
+<string name="sense_phone">720.747.3465</string>
+<string name="sense_email">asense@cherrycreekschools.org</string>
+<string name="sudik_name">Laura Sudik</string>
+<string name="sudik_phone">720.747.3845</string>
+<string name="sudik_email">lsudik@cherrycreekschools.org</string>
+<string name="wietgrefe_name">Craig Wietgrefe</string>
+<string name="wietgrefe_phone">720.747.3758</string>
+<string name="wietgrefe_email">cwietgrefe@cherrycreekschools.org</string>
+
+
+strings_math.xml
+
+<string name="wooden_name">Cyndee Wooden</string>
+<string name="wooden_phone">720.747.3805</string>
+<string name="wooden_email">cwooden@cherrycreekschools.org</string>
+<string name="blinck?720.747.3889?eblinck@cherrycreekschools.org_name">Erin Blinck?720.747.3889?eblinck@cherrycreekschools.org</string>
+<string name="blinck?720.747.3889?eblinck@cherrycreekschools.org_phone">undefined</string>
+<string name="blinck?720.747.3889?eblinck@cherrycreekschools.org_email">undefined</string>
+<string name="delvan?720.747.3908?kdelavan@cherrycreekschools.org_name">Kate Delvan?720.747.3908?kdelavan@cherrycreekschools.org</string>
+<string name="delvan?720.747.3908?kdelavan@cherrycreekschools.org_phone">undefined</string>
+<string name="delvan?720.747.3908?kdelavan@cherrycreekschools.org_email">undefined</string>
+<string name="dye_name">Tara Dye</string>
+<string name="dye_phone">720.747.3828</string>
+<string name="dye_email">tdye2@cherrycreekschools.org</string>
+<string name="espinoza_name">Erika Espinoza</string>
+<string name="espinoza_phone">720.747.3806</string>
+<string name="espinoza_email">eespinoza2@cherrycreekschools.org</string>
+<string name="hansen_name">Dana Hansen</string>
+<string name="hansen_phone">720.747.3720</string>
+<string name="hansen_email">dhansen8@cherrycreekschools.org</string>
+<string name="kendrick_name">Lara Kendrick</string>
+<string name="kendrick_phone">720.747.3757</string>
+<string name="kendrick_email">lkendrick2@cherrycreekschools.org</string>
+<string name="kruger?720.747.3788?ckrueger6@cherrycreekschools.org_name">Carter Kruger?720.747.3788?ckrueger6@cherrycreekschools.org</string>
+<string name="kruger?720.747.3788?ckrueger6@cherrycreekschools.org_phone">undefined</string>
+<string name="kruger?720.747.3788?ckrueger6@cherrycreekschools.org_email">undefined</string>
+<string name="lefebre_name">Cory LeFebre</string>
+<string name="lefebre_phone">720.747.3767</string>
+<string name="lefebre_email">clefebre@cherrycreekschools.org</string>
+<string name="marr_name">Sarah Marr</string>
+<string name="marr_phone">720.747.3730</string>
+<string name="marr_email">smarr2@cherrycreekschools.org</string>
+<string name="montgomery_name">Alicia Montgomery</string>
+<string name="montgomery_phone">720.747.3829</string>
+<string name="montgomery_email">amontgomery11@cherrycreekschools.org</string>
+<string name="nye_name">Andrea Nye</string>
+<string name="nye_phone">720.747.3492</string>
+<string name="nye_email">anye@cherrycreekschools.org</string>
+<string name="oelrichs_name">Gregory Oelrichs</string>
+<string name="oelrichs_phone">720.747.3635</string>
+<string name="oelrichs_email">goelrichs@cherrycreekschools.org</string>
+<string name="parkhurst_name">Shelly Parkhurst</string>
+<string name="parkhurst_phone">720.747.3831</string>
+<string name="parkhurst_email">sparkhurst@cherrycreekschools.org</string>
+<string name="planck?720.747.3749?jplanck@cherrycreekschools.org?_name">Jeff Planck?720.747.3749?jplanck@cherrycreekschools.org?</string>
+<string name="planck?720.747.3749?jplanck@cherrycreekschools.org?_phone">undefined</string>
+<string name="planck?720.747.3749?jplanck@cherrycreekschools.org?_email">undefined</string>
+<string name="roussopulos_name">Chelsea Roussopulos</string>
+<string name="roussopulos_phone">720.747.3769</string>
+<string name="roussopulos_email">croussopulos@cherrycreekschools.org</string>
+<string name="scott_name">Mark Scott</string>
+<string name="scott_phone">720.747.3861</string>
+<string name="scott_email">mscott2@cherrycreekschools.org</string>
+<string name="tran_name">Linda Tran </string>
+<string name="tran_phone">720.747.3832</string>
+<string name="tran_email">ltran9@cherrycreekschools.org</string>
+<string name="welborn_name">Joe Welborn</string>
+<string name="welborn_phone">720.747.3770</string>
+<string name="welborn_email">jwelborn@cherrycreekschools.org</string>
+
+
+strings_performing_arts.xml
+
+<string name="cate_name">?Abby Cate</string>
+<string name="cate_phone">undefined</string>
+<string name="cate_email">undefined</string>
+<string name="eidson_name">Eric Eidson</string>
+<string name="eidson_phone">720.747.3657</string>
+<string name="eidson_email">eeidson5@cherrycreekschools.org</string>
+<string name="jacob?720.747.3737?mjacob2@cherrycreekschools.org_name">Marty Jacob?720.747.3737?mjacob2@cherrycreekschools.org</string>
+<string name="jacob?720.747.3737?mjacob2@cherrycreekschools.org_phone">undefined</string>
+<string name="jacob?720.747.3737?mjacob2@cherrycreekschools.org_email">undefined</string>
+<string name="monarch??rmonarch@cherrycreekschools.org_name">Ryan Monarch??rmonarch@cherrycreekschools.org</string>
+<string name="monarch??rmonarch@cherrycreekschools.org_phone">undefined</string>
+<string name="monarch??rmonarch@cherrycreekschools.org_email">undefined</string>
+<string name="smith??hsmith26@cherrycreekschools.org?_name">Hannah Smith??hsmith26@cherrycreekschools.org?</string>
+<string name="smith??hsmith26@cherrycreekschools.org?_phone">undefined</string>
+<string name="smith??hsmith26@cherrycreekschools.org?_email">undefined</string>
+
+
+strings_physical_education_health.xml
+
+<string name="parker_name">Don Parker</string>
+<string name="parker_phone">720.747.3830</string>
+<string name="parker_email">dparker3@cherrycreekschools.org</string>
+<string name="alexander_name">Jeff Alexander</string>
+<string name="alexander_phone">720.747.3804</string>
+<string name="alexander_email">jalexander6@cherrycreekschools.org</string>
+<string name="dalton??bdalton@cherrycreekschools.org_name">Bert Dalton??bdalton@cherrycreekschools.org</string>
+<string name="dalton??bdalton@cherrycreekschools.org_phone">undefined</string>
+<string name="dalton??bdalton@cherrycreekschools.org_email">undefined</string>
+<string name="grasser_name">Becky Grasser</string>
+<string name="grasser_phone">720.747.3797</string>
+<string name="grasser_email">rgrasser@cherrycreekschools.org</string>
+<string name="jacob_name">Nathan Jacob</string>
+<string name="jacob_phone">720.747.3756</string>
+<string name="jacob_email">njacob@cherrycreekschools.org</string>
+<string name="kayali_name">Mazen Kayali</string>
+<string name="kayali_phone">720.747.3898</string>
+<string name="kayali_email">mkayali2@cherrycreekschools.org</string>
+<string name="lowe_name">Arlandus Lowe</string>
+<string name="lowe_phone">720.747.3723</string>
+<string name="lowe_email">alowe2@cherrycreekschools.org</string>
+<string name="miller_name">Mike Miller</string>
+<string name="miller_phone">720.747.3798</string>
+<string name="miller_email">mmiller80@cherrycreekschools.org</string>
+<string name="watson_name">Taryn Watson</string>
+<string name="watson_phone">720.747.3628</string>
+<string name="watson_email">twatson8@cherrycreekschools.org</string>
+
+
+strings_student_achievement_services.xml
+
+<string name="swan_name">Diane Swan</string>
+<string name="swan_phone">720.747.3626</string>
+<string name="swan_email">dswan@cherrycreekschools.org</string>
+<string name="shealey?,_name">Zana Shealey?, secretary</string>
+<string name="shealey?,_phone">720.747.3874</string>
+<string name="shealey?,_email">zshealey@cherrycreekschools.org</string>
+<string name="anderson_name">Sheawanna Anderson</string>
+<string name="anderson_phone">720.747.3639</string>
+<string name="anderson_email">sanderson59@cherrycreekschools.org</string>
+<string name="clabaugh_name">Lauren Clabaugh</string>
+<string name="clabaugh_phone">720.747.3764</string>
+<string name="clabaugh_email">lclabaugh@cherrycreekschools.org</string>
+<string name="cleveland_name">Amy Cleveland</string>
+<string name="cleveland_phone">720.747.3857</string>
+<string name="cleveland_email">acleveland8@cherrycreekschools.org</string>
+<string name="forth_name">Heather Forth</string>
+<string name="forth_phone">720.747.3659</string>
+<string name="forth_email">hforth@cherrycreekschools.org</string>
+<string name="gooldy_name">David Gooldy</string>
+<string name="gooldy_phone">720.747.3074</string>
+<string name="gooldy_email">dgooldy@cherrycreekschools.org</string>
+<string name="holdsworth_name">Tom Holdsworth</string>
+<string name="holdsworth_phone">720.747.3873</string>
+<string name="holdsworth_email">tholdsworth@cherrycreekschools.org</string>
+<string name="lemire_name">Sarah Lemire</string>
+<string name="lemire_phone">720.747.3865</string>
+<string name="lemire_email">slemire@cherrycreekschools.org</string>
+<string name="liechty_name">Jamie Liechty</string>
+<string name="liechty_phone">720.747.3877</string>
+<string name="liechty_email">?jliechty@cherrycreekschools.org</string>
+<string name="dunbar_name">J. Dunbar Lyles</string>
+<string name="dunbar_phone">720.747.3783</string>
+<string name="dunbar_email">jlyles@cherrycreekschools.org</string>
+<string name="sanchez_name">Jodi Sanchez</string>
+<string name="sanchez_phone">720.747.3876</string>
+<string name="sanchez_email">jsanchez49@cherrycreekschools.org</string>
+<string name="stackhouse_name">John Stackhouse</string>
+<string name="stackhouse_phone">720.747.3875</string>
+<string name="stackhouse_email">jstackhouse@cherrycreekschools.org</string>
+<string name="weber_name">Susan Weber</string>
+<string name="weber_phone">720.747.3859</string>
+<string name="weber_email">sdeniro-weber@cherrycreekschools.org</string>
+<string name="willis_name">Kay Willis </string>
+<string name="willis_phone">720.747.3864</string>
+<string name="willis_email">kwillis2@cherrycreekschools.org</string>
+
+
+strings_science.xml
+
+<string name="nass-fukai_name">Jenn Nass-Fukai</string>
+<string name="nass-fukai_phone">720.747.3844</string>
+<string name="nass-fukai_email">jnass-fukai@cherrycreekschools.org</string>
+<string name="allison??720.747.3496?rallison@cherrycreekschools.org_name">Rebecca Allison??720.747.3496?rallison@cherrycreekschools.org</string>
+<string name="allison??720.747.3496?rallison@cherrycreekschools.org_phone">undefined</string>
+<string name="allison??720.747.3496?rallison@cherrycreekschools.org_email">undefined</string>
+<string name="carnevale_name">Deb Carnevale</string>
+<string name="carnevale_phone">720.747.3840</string>
+<string name="carnevale_email">dcarnevale@cherrycreekschools.org</string>
+<string name="coy_name">Casey Coy</string>
+<string name="coy_phone">720.747.3917</string>
+<string name="coy_email">ccoy2@cherrycreekschools.org</string>
+<string name="coyle_name">Rebecca Coyle</string>
+<string name="coyle_phone">720.747.3800</string>
+<string name="coyle_email">rcoyle@cherrycreekschools.org</string>
+<string name="ellis_name">Daniel Ellis</string>
+<string name="ellis_phone">720.747.3646</string>
+<string name="ellis_email">dellis15@cherrycreekschools.org</string>
+<string name="hansen_name">Dana Hansen</string>
+<string name="hansen_phone">720.747.3720</string>
+<string name="hansen_email">dhansen8@cherrycreekschools.org</string>
+<string name="hein??720.747.3916?lhein2@cherrycreekschools.org_name">Laura Hein??720.747.3916?lhein2@cherrycreekschools.org</string>
+<string name="hein??720.747.3916?lhein2@cherrycreekschools.org_phone">undefined</string>
+<string name="hein??720.747.3916?lhein2@cherrycreekschools.org_email">undefined</string>
+<string name="huddleston_name">Lauren Huddleston</string>
+<string name="huddleston_phone">720.747.3678</string>
+<string name="huddleston_email">lhuddleston@cherrycreekschools.org</string>
+<string name="kunitz_name">Dan Kunitz</string>
+<string name="kunitz_phone">720.747.3810</string>
+<string name="kunitz_email">dkunitz@cherrycreekschools.org</string>
+<string name="malik_name">Rita Malik</string>
+<string name="malik_phone">720.747.3772</string>
+<string name="malik_email">rmalik@cherrycreekschools.org</string>
+<string name="malone_name">Shealyn Malone</string>
+<string name="malone_phone">720.747.3494</string>
+<string name="malone_email">smalone7@cherrycreekschools.org</string>
+<string name="mann_name">Kevin Mann</string>
+<string name="mann_phone">720.747.3837</string>
+<string name="mann_email">kmann7@cherrycreekschools.org</string>
+<string name="mclelland_name">Christine McLelland</string>
+<string name="mclelland_phone">720.747.3835</string>
+<string name="mclelland_email">cmclelland@cherrycreekschools.org</string>
+<string name="porter_name">Carolyn Porter</string>
+<string name="porter_phone">720.747.3841</string>
+<string name="porter_email">cporter4@cherrycreekschools.org</string>
+<string name="prichard_name">Mike Prichard</string>
+<string name="prichard_phone">720.747.3842</string>
+<string name="prichard_email">mprichard@cherrycreekschools.org</string>
+<string name="schreiber??720.747.3647?sschreiber9@cherrycreekschools.org?_name">Sarah Schreiber??720.747.3647?sschreiber9@cherrycreekschools.org?</string>
+<string name="schreiber??720.747.3647?sschreiber9@cherrycreekschools.org?_phone">undefined</string>
+<string name="schreiber??720.747.3647?sschreiber9@cherrycreekschools.org?_email">undefined</string>
+<string name="trevino_name">Gil Trevino</string>
+<string name="trevino_phone">720.747.3836</string>
+<string name="trevino_email">gtrevino@cherrycreekschools.org</string>
+
+
+strings_social_studies.xml
+
+<string name="kleinsasser_name">Pete Kleinsasser</string>
+<string name="kleinsasser_phone">720.747.3795</string>
+<string name="kleinsasser_email"></string>
+<string name="aufderheyde_name">Gretchen AufderHeyde</string>
+<string name="aufderheyde_phone">720.747.3878</string>
+<string name="aufderheyde_email">gaufderheyde@cherrycreekschools.org</string>
+<string name="bennish_name">Jay Bennish</string>
+<string name="bennish_phone">720.747.3733</string>
+<string name="bennish_email">jbennish@cherrycreekschools.org</string>
+<string name="drake_name">Hollie Drake</string>
+<string name="drake_phone">720.747.3742</string>
+<string name="drake_email">hdrake2@cherrycreekschools.org</string>
+<string name="dworkin_name">Leah Dworkin</string>
+<string name="dworkin_phone">720.747.3620</string>
+<string name="dworkin_email">ldworkin@cherrycreekschools.org</string>
+<string name="fitch_name">Kristi Fitch</string>
+<string name="fitch_phone">720.747.3479</string>
+<string name="fitch_email">kfitch@cherrycreekschools.org</string>
+<string name="ford_name">David Ford</string>
+<string name="ford_phone">720.747.3871</string>
+<string name="ford_email">dford8@cherrycreekschools.org</string>
+<string name="hamrick_name">Eliza Hamrick</string>
+<string name="hamrick_phone">720.747.3791</string>
+<string name="hamrick_email">ehamrick@cherrycreekschools.org</string>
+<string name="harrison_name">Brandon Harrison</string>
+<string name="harrison_phone">720.747.3780</string>
+<string name="harrison_email">bharrison7@cherrycreekschools.org</string>
+<string name="jones-wagy_name">Kelly Jones-Wagy</string>
+<string name="jones-wagy_phone">720.747.3480</string>
+<string name="jones-wagy_email">kjones-wagy@cherrycreekschools.org</string>
+<string name="knorr_name">Ryan Knorr</string>
+<string name="knorr_phone">720.747.3478</string>
+<string name="knorr_email">rknorr3@cherrycreekschools.org</string>
+<string name="lucero_name">Melissa Lucero</string>
+<string name="lucero_phone">720.747.3728</string>
+<string name="lucero_email">mlucero20@cherrycreekschool.org</string>
+<string name="martin_name">Jeff Martin</string>
+<string name="martin_phone">720.747.3474</string>
+<string name="martin_email">jmartin5@cherrycreekschools.org</string>
+<string name="mcdermott_name">Ben McDermott</string>
+<string name="mcdermott_phone">720.747.3851</string>
+<string name="mcdermott_email">bmcdermott4@cherrycreekschools.org</string>
+<string name="newell_name">Ted Newell</string>
+<string name="newell_phone">720.747.3817</string>
+<string name="newell_email">enewell@cherrycreekschools.org</string>
+<string name="price_name">Jessica Price</string>
+<string name="price_phone">720.747.3727</string>
+<string name="price_email">jprice4@cherrycreekschools.org</string>
+<string name="wetmore_name">Kaitlynne Wetmore</string>
+<string name="wetmore_phone">720.747.3890</string>
+<string name="wetmore_email">kwetmore@cherrycreekschools.org</string>
+
+
+strings_technology.xml
+
+<string name="lindemann_name">Ben Lindemann</string>
+<string name="lindemann_phone">720.747.3721</string>
+<string name="lindemann_email">blindemann@cherrycreekschools.org</string>
+<string name="dalton_name">Bert Dalton</string>
+<string name="dalton_phone">720.747.3787</string>
+<string name="dalton_email">bdalton@cherrycreekschools.org</string>
+<string name="gartner_name">Bryce Gartner</string>
+<string name="gartner_phone">720.747.3929</string>
+<string name="gartner_email">bgartner2@cherrycreekschools.org</string>
+<string name="gregg_name">Debbie Gregg</string>
+<string name="gregg_phone">720.747.3482</string>
+<string name="gregg_email">dgregg2@cherrycreekschools.org</string>
+<string name="kitzman_name">Leslee Kitzman</string>
+<string name="kitzman_phone">720.747.3444</string>
+<string name="kitzman_email">lkitzman@cherrycreekschools.org</string>
+<string name="lacour_name">Dave LaCour</string>
+<string name="lacour_phone">720.747.3849</string>
+<string name="lacour_email">dlacour@cherrycreekschools.org</string>
+<string name="mcdonnell_name">Kate McDonnell</string>
+<string name="mcdonnell_phone">720.747.3470</string>
+<string name="mcdonnell_email">kmcdonnell2@cherrycreekschools.org</string>
+<string name="simon??hsimon3@cherrycreekschools.org?_name">Henry Simon??hsimon3@cherrycreekschools.org?</string>
+<string name="simon??hsimon3@cherrycreekschools.org?_phone">undefined</string>
+<string name="simon??hsimon3@cherrycreekschools.org?_email">undefined</string>
+<string name="suchman_name">Joe Suchman</string>
+<string name="suchman_phone">303.564.6272</string>
+<string name="suchman_email">jsuchman@cherrycreekschools.org</string>
+
+
+strings_visual_arts.xml
+
+<string name="strompolos_name">Elaine Strompolos</string>
+<string name="strompolos_phone">720.747.3854</string>
+<string name="strompolos_email">estrompolos@cherrycreekschools.org?</string>
+<string name="duffy_name">Bridget Duffy</string>
+<string name="duffy_phone">720.747.3754</string>
+<string name="duffy_email">bduffy3@cherrycreekschools.org</string>
+<string name="gilfillan_name">Joyce Gilfillan</string>
+<string name="gilfillan_phone">720.747.3790</string>
+<string name="gilfillan_email">jgilfillan@cherrycreekschools.org</string>
+<string name="kane_name">Kathy Kane</string>
+<string name="kane_phone">720.747.3766</string>
+<string name="kane_email">kkane3@cherrycreekschools.org</string>
+
+
+strings_world_languages.xml
+
+<string name="mccreesh,coordinator_name">Megan McCreesh,coordinator</string>
+<string name="mccreesh,coordinator_phone">720.747.3793</string>
+<string name="mccreesh,coordinator_email">mmccreesh@cherrycreekschools.org</string>
+<string name="baumann_name">Lola Baumann</string>
+<string name="baumann_phone">720.747.3847</string>
+<string name="baumann_email">lbaumann2@cherrycreekschools.org</string>
+<string name="duncan_name">Meg Duncan</string>
+<string name="duncan_phone">720.747.3825</string>
+<string name="duncan_email">mduncan7@cherrycreekschools.org</string>
+<string name="jakubcin_name">Callie Jakubcin</string>
+<string name="jakubcin_phone">720.747.3846</string>
+<string name="jakubcin_email">cjakubcin2@cherrycreekschools.org</string>
+<string name="liu_name">Yingxin Liu</string>
+<string name="liu_phone">720.747.3477</string>
+<string name="liu_email">yliu6@cherrycreekschools.org</string>
+<string name="mooney_name">Zehra Mooney</string>
+<string name="mooney_phone">720.747.3477</string>
+<string name="mooney_email">zmooney2@cherrycreekschools.org</string>
+<string name="moore_name">Dottie Moore</string>
+<string name="moore_phone">720.747.3707</string>
+<string name="moore_email">dmoore@cherrycreekschools.org</string>
+<string name="osuna_name">Kelly Osuna</string>
+<string name="osuna_phone">720.747.3816</string>
+<string name="osuna_email">kosuna@cherrycreekschools.org</string>
+<string name="perera-alcalde_name">Rocio Perera-Alcalde</string>
+<string name="perera-alcalde_phone">720.747.3899</string>
+<string name="perera-alcalde_email">rperera-alcalde@cherrycreekschools.org</string>
+<string name="robinson_name">Erin Robinson</string>
+<string name="robinson_phone">720.747.3768</string>
+<string name="robinson_email">erobinson14@cherrycreekschools.org</string>
+
+

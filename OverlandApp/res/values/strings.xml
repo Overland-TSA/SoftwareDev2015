@@ -9,5 +9,7 @@
     <string name="url_overland">http://overland.cherrycreekschools.org/Pages/default.aspx</string>
     <string name="url_powerschool">https://powerschool.cherrycreekschools.org/public/</string>
     <string name="url_athletics">http://www.overlandathletics.org/</string>
+    
+    <string name="staff_title">Staff</string>
 
 </resources>
