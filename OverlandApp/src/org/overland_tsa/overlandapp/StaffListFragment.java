@@ -47,7 +47,7 @@ public class StaffListFragment extends ListFragment {
 		Staff s = ((StaffAdapter)super.getListAdapter()).getItem(position);
 		
 		// Start a StaffPagerActivity (with this Staff)
-		Intent i = new Intent(super.getActivity(), StaffFragment.class);
+		Intent i = new Intent(super.getActivity(), StaffActivity.class);
 		i.putExtra(StaffFragment.EXTRA_STAFF_ID, s.getId());
 		super.startActivity(i);
 	}

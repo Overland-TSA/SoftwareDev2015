@@ -32,6 +32,18 @@
             android:name="org.overland_tsa.overlandapp.BellScheduleActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.StaffListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.SingleFragmentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.StaffActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

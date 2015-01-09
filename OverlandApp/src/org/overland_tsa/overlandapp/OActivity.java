@@ -155,8 +155,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
-						startActivity( overland );
+						startActivity( new Intent(OActivity.this, StaffListActivity.class) );
 					}
 				}
 			);
