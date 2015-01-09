@@ -17,9 +17,7 @@ public class StaffList {
 		
 		// generate some Staffs
 		for (int i=0; i<100; i++) {
-			Staff s = new Staff();
-			s.setTitle("Staff #" + i);
-			s.setSolved(i%2 == 0);	// Every other one
+			Staff s = new  Staff(i + "", i + "", i + "", i + "");
 			mStaffs.add(s);
 		}
 	}

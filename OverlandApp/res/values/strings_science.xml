@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nass-fukai_name">Jenn Nass-Fukai</string>
-<string name="nass-fukai_phone">720.747.3844</string>
-<string name="nass-fukai_email">jnass-fukai@cherrycreekschools.org</string>
+    <string name="nass_fukai_name">Jenn Nass-Fukai</string>
+<string name="nass_fukai_phone">720.747.3844</string>
+<string name="nass_fukai_email">jnass-fukai@cherrycreekschools.org</string>
 <string name="allison_name">Rebecca Allison</string>
 <string name="allison_phone">720.747.3496</string>
 <string name="allison_email">rallison@cherrycreekschools.org</string>

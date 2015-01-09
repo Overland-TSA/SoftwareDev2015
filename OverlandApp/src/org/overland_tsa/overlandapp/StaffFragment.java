@@ -3,8 +3,6 @@ package org.overland_tsa.overlandapp;
 import java.util.Date;
 import java.util.UUID;
 
-import com.bignerdranch.android.criminalintent.CrimeFragment;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,7 +32,9 @@ public class StaffFragment extends Fragment {
 	
 	// Instance variables
 	private Staff mStaff;
-	private EditText mTitleField;
+	private TextView mTextName;
+	private TextView mTextPhone;
+	private TextView mTextEmail;
 	
 	
 	// Methods
@@ -42,25 +42,27 @@ public class StaffFragment extends Fragment {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		UUID staffId = (UUID)getArguments().getSerializable(EXTRA_STAFF_ID);
+
+		// select the current staff
+		UUID staffId = (UUID)getActivity().getIntent().getSerializableExtra(StaffFragment.EXTRA_STAFF_ID);
 		this.mStaff = StaffList.get(getActivity()).getStaff(staffId);
-		
-		UUID crimeId = (UUID)getIntent().getSerializableExtra(CrimeFragment.EXTRA_CRIME_ID);
-		for (int i=0; i<this.mCrimes.size(); i++) {
-			if (this.mCrimes.get(i).getId().equals(crimeId)) {
-				this.mViewPager.setCurrentItem(i);
-				break;
-			}
-		}
 	}
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.fragment_staff, parent, false);
 		
-		// Title Label
-		this.mTitleField = (TextView) v.findViewById(R.id.staff_title);
-		this.mTitleField.setText(this.mStaff.getTitle());
+		// Name Label
+		this.mTextName = (TextView) v.findViewById(R.id.staff_name);
+		this.mTextName.setText(this.mStaff.getName());
+		
+		// Phone Label
+		this.mTextPhone = (TextView) v.findViewById(R.id.staff_phone);
+		this.mTextPhone.setText(this.mStaff.getPhone());
+				
+		// Email Label
+		this.mTextEmail = (TextView) v.findViewById(R.id.staff_email);
+		this.mTextEmail.setText(this.mStaff.getEmail());
 		
 		return v;
 	}

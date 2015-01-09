@@ -19,6 +19,9 @@ public class StaffListFragment extends ListFragment {
 	private ArrayList<Staff> mStaffs;
 	private static final String TAG = "StaffListFragment";
 	
+	// Views
+	private TextView titleTextView;
+	
 	// Methods
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -44,8 +47,7 @@ public class StaffListFragment extends ListFragment {
 		Staff s = ((StaffAdapter)super.getListAdapter()).getItem(position);
 		
 		// Start a StaffPagerActivity (with this Staff)
-		startActivity( new Intent(super.getActivity(), BellScheduleActivity.class) );
-		Intent i = new Intent(super.getActivity(), StaffPagerActivity.class);
+		Intent i = new Intent(super.getActivity(), StaffFragment.class);
 		i.putExtra(StaffFragment.EXTRA_STAFF_ID, s.getId());
 		super.startActivity(i);
 	}
@@ -67,15 +69,9 @@ public class StaffListFragment extends ListFragment {
 			// Configure the view for this Staff
 			Staff s = getItem(position);
 			
-			TextView titleTextView = (TextView) convertView.findViewById(R.id.staff_list_item_titleTextView);
-				titleTextView.setText(c.getTitle());
+			titleTextView = (TextView) convertView.findViewById(R.id.staff_list_item_titleTextView);
+				titleTextView.setText(s.getName());
 				
-			TextView dateTextView = (TextView) convertView.findViewById(R.id.staff_list_item_dateTextView);
-				dateTextView.setText(c.getDate().toString());
-				
-			CheckBox solvedCheckBox = (CheckBox) convertView.findViewById(R.id.staff_list_item_solvedCheckBox);
-				solvedCheckBox.setChecked(c.isSolved());
-			
 			// Return the configured view
 			return convertView;
 		}
