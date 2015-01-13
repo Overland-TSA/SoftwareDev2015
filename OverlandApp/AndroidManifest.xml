@@ -36,6 +36,14 @@
             android:label="@string/app_name" >
         </activity>
         <activity
+            android:name="org.overland_tsa.overlandapp.ClubsWebActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.CounselorsWebActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
             android:name="org.overland_tsa.overlandapp.StaffListActivity"
             android:label="@string/app_name" >
         </activity>
@@ -45,6 +53,30 @@
         </activity>
         <activity
             android:name="org.overland_tsa.overlandapp.StaffActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.WebViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.LunchMenuWebActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.PowerschoolWebActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.PrideWebActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.SportsWebActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.overland_tsa.overlandapp.StaffDirectoryWebActivity"
             android:label="@string/app_name" >
         </activity>
     </application>

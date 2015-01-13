@@ -9,9 +9,15 @@ public class WebViewActivity extends Activity {
 	private String pageLocation;
 	public static final String WEBPAGE_URL = "org.overland_tsa.overlandapp.webview_url";
 	
+	// constructor that didn't wanna work
 	public WebViewActivity() {
 		super();
-		this.pageLocation = (String)getIntent().getSerializableExtra(WebViewActivity.WEBPAGE_URL);
+		this.pageLocation = getIntent().getStringExtra(WebViewActivity.WEBPAGE_URL);
+	}
+	
+	public WebViewActivity( String page ) {
+		super();
+		this.pageLocation = page;
 	}
 	
 	@Override
