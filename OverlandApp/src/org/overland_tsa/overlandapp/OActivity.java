@@ -155,7 +155,10 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						startActivity( new Intent(OActivity.this, StaffListActivity.class) );
+						Intent i = new Intent(OActivity.this, WebViewActivity.class);
+						i.putExtra(WebViewActivity.WEBPAGE_URL, "http://overland.cherrycreekschools.org/Staff/Pages/FacultyStaff.aspx");
+						startActivity( i );
+						//startActivity( new Intent(OActivity.this, StaffListActivity.class) );
 					}
 				}
 			);
