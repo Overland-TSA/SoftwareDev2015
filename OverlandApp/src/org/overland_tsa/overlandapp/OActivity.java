@@ -37,7 +37,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
+						Intent overland = new Intent(OActivity.this, CalendarActivity.class);
 						startActivity( overland );
 					}
 				}
@@ -127,7 +127,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						//startActivity( new Intent(OActivity.this, SeniorsWebActivity.class) );
+						startActivity( new Intent(OActivity.this, SeniorsWebActivity.class) );
 					}
 				}
 			);
@@ -171,7 +171,7 @@ public class OActivity extends Activity {
 	    // Handle presses on the action bar items
 	    switch (item.getItemId()) {
 	        case R.id.overlandWebButton:
-	        	//startActivity( new Intent(OActivity.this, OverlandWebActivity.class) );
+	        	startActivity( new Intent(OActivity.this, OverlandWebActivity.class) );
 	            return true;	
 	        default:
 	            return super.onOptionsItemSelected(item);

@@ -57,9 +57,10 @@ public final class R {
         public static final int powerschoolbtn_130x150=0x7f020021;
         public static final int prairiebackground_640x960_v=0x7f020022;
         public static final int prairiewebsitebtn_130x150=0x7f020023;
-        public static final int seniorsbtn_130x150=0x7f020024;
-        public static final int sportsbtn_130x150=0x7f020025;
-        public static final int staffdirectorybtn_130x150=0x7f020026;
+        public static final int schedule_700px=0x7f020024;
+        public static final int seniorsbtn_130x150=0x7f020025;
+        public static final int sportsbtn_130x150=0x7f020026;
+        public static final int staffdirectorybtn_130x150=0x7f020027;
     }
     public static final class id {
         public static final int action_settings=0x7f080016;
