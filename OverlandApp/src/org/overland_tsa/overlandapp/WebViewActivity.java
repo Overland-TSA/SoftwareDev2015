@@ -2,6 +2,7 @@ package org.overland_tsa.overlandapp;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 public class WebViewActivity extends Activity {
@@ -29,6 +30,8 @@ public class WebViewActivity extends Activity {
         
         // choose the page to show
         WebView myWebView = (WebView) findViewById(R.id.webview_frame);
+        WebSettings webSettings = myWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
         myWebView.loadUrl( this.pageLocation );
         
     }
