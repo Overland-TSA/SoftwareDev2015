@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
+    <string name="announcements" > Come join us for the FIRST Robotics Competition and cheer on the BlazerBots on March 26\-28\! </string>
+
 </resources>

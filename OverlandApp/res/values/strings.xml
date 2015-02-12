@@ -4,7 +4,6 @@
     <string name="app_name">O-Zone</string>
     <string name="action_settings">Settings</string>
     <string name="overlandWeb">Click here for website</string>
-    <string name="announcements">	Hello World!</string>
     
     <string name="url_overland">http://overland.cherrycreekschools.org/Pages/default.aspx</string>
     <string name="url_powerschool">https://powerschool.cherrycreekschools.org/public/</string>

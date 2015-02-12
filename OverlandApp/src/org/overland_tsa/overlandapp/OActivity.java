@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 public class OActivity extends Activity {
 
 	//We have two ImageButtons on the home screen
-	private ImageButton overlandWebImageButton, bellImageButton, calendarImageButton, clubImageButton, contactImageButton, counselorsImageButton, lunchImageButton, notificationImageButton, prideImageButton, powerschoolImageButton, seniorsImageButton, sportsImageButton, staffImageButton;
+	private ImageButton overlandWebImageButton, bellImageButton, calendarImageButton, clubImageButton, contactImageButton, counselorsImageButton, lunchImageButton, prideImageButton, powerschoolImageButton, seniorsImageButton, sportsImageButton, staffImageButton;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +60,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
+						Intent overland = new Intent(OActivity.this, ContactsWebActivity.class);
 						startActivity( overland );
 					}
 				}
@@ -87,7 +87,7 @@ public class OActivity extends Activity {
 				}
 			);
 		
-		this.notificationImageButton = (ImageButton)findViewById(R.id.notifications);
+		/*this.notificationImageButton = (ImageButton)findViewById(R.id.notifications);
 		this.notificationImageButton.setOnClickListener(
 				new View.OnClickListener() {
 					
@@ -97,7 +97,7 @@ public class OActivity extends Activity {
 						startActivity( overland );
 					}
 				}
-			);
+			);*/
 		
 		this.prideImageButton = (ImageButton)findViewById(R.id.pointsofpride);
 		this.prideImageButton.setOnClickListener(

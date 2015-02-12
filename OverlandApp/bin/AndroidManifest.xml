@@ -50,6 +50,11 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
+            android:name="org.overland_tsa.overlandapp.ContactsWebActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="org.overland_tsa.overlandapp.CounselorsWebActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
