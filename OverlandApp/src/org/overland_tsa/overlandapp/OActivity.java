@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 public class OActivity extends Activity {
 
 	//We have two ImageButtons on the home screen
-	private ImageButton overlandWebImageButton, bellImageButton, calendarImageButton, clubImageButton, contactImageButton, counselorsImageButton, lunchImageButton, notificationImageButton, prideImageButton, powerschoolImageButton, seniorsImageButton, sportsImageButton, staffImageButton;
+	private ImageButton overlandWebImageButton, bellImageButton, calendarImageButton, clubImageButton, contactImageButton, counselorsImageButton, lunchImageButton, prideImageButton, powerschoolImageButton, seniorsImageButton, sportsImageButton, staffImageButton;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
+						Intent overland = new Intent(OActivity.this, CalendarActivity.class);
 						startActivity( overland );
 					}
 				}
@@ -49,8 +49,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
-						startActivity( overland );
+						startActivity( new Intent(OActivity.this, ClubsWebActivity.class) );
 					}
 				}
 			);
@@ -61,7 +60,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
+						Intent overland = new Intent(OActivity.this, ContactsWebActivity.class);
 						startActivity( overland );
 					}
 				}
@@ -72,8 +71,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
-						startActivity( overland );
+						startActivity( new Intent(OActivity.this, CounselorsWebActivity.class) );
 					}
 				}
 			);
@@ -84,13 +82,12 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
-						startActivity( overland );
+						startActivity( new Intent(OActivity.this, LunchMenuWebActivity.class) );
 					}
 				}
 			);
 		
-		this.notificationImageButton = (ImageButton)findViewById(R.id.notifications);
+		/*this.notificationImageButton = (ImageButton)findViewById(R.id.notifications);
 		this.notificationImageButton.setOnClickListener(
 				new View.OnClickListener() {
 					
@@ -100,7 +97,7 @@ public class OActivity extends Activity {
 						startActivity( overland );
 					}
 				}
-			);
+			);*/
 		
 		this.prideImageButton = (ImageButton)findViewById(R.id.pointsofpride);
 		this.prideImageButton.setOnClickListener(
@@ -108,8 +105,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
-						startActivity( overland );
+						startActivity( new Intent(OActivity.this, PrideWebActivity.class) );
 					}
 				}
 			);
@@ -120,8 +116,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://powerschool.cherrycreekschools.org/public/"));
-						startActivity( browser );
+						startActivity( new Intent(OActivity.this, PowerschoolWebActivity.class) );
 					}
 				}
 			);
@@ -132,8 +127,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
-						startActivity( overland );
+						startActivity( new Intent(OActivity.this, SeniorsWebActivity.class) );
 					}
 				}
 			);
@@ -144,7 +138,7 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						startActivity( new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.overlandathletics.org/")) );
+						startActivity( new Intent(OActivity.this, SportsWebActivity.class) );
 					}
 				}
 			);
@@ -155,8 +149,11 @@ public class OActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent overland = new Intent(OActivity.this, OActivity.class);
-						startActivity( overland );
+						/*Intent i = new Intent(OActivity.this, WebViewActivity.class);
+						i.putExtra(WebViewActivity.WEBPAGE_URL, "http://overland.cherrycreekschools.org/Staff/Pages/FacultyStaff.aspx");
+						startActivity( i );
+						*/
+						startActivity( new Intent(OActivity.this, StaffDirectoryWebActivity.class) );
 					}
 				}
 			);
@@ -174,8 +171,7 @@ public class OActivity extends Activity {
 	    // Handle presses on the action bar items
 	    switch (item.getItemId()) {
 	        case R.id.overlandWebButton:
-	            Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("http://overland.cherrycreekschools.org/Pages/default.aspx"));
-				startActivity( browser );
+	        	startActivity( new Intent(OActivity.this, OverlandWebActivity.class) );
 	            return true;	
 	        default:
 	            return super.onOptionsItemSelected(item);

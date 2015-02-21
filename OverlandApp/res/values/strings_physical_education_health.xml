@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parker_name">Don Parker</string>
+<string name="parker_phone">720.747.3830</string>
+<string name="parker_email">dparker3@cherrycreekschools.org</string>
+<string name="alexander_name">Jeff Alexander</string>
+<string name="alexander_phone">720.747.3804</string>
+<string name="alexander_email">jalexander6@cherrycreekschools.org</string>
+<string name="dalton_gym_name">Bert Dalton</string>
+<string name="dalton_gym_phone">720.747.3787</string>
+<string name="dalton_gym_email">bdalton@cherrycreekschools.org</string>
+<string name="grasser_name">Becky Grasser</string>
+<string name="grasser_phone">720.747.3797</string>
+<string name="grasser_email">rgrasser@cherrycreekschools.org</string>
+<string name="jacob_name">Nathan Jacob</string>
+<string name="jacob_phone">720.747.3756</string>
+<string name="jacob_email">njacob@cherrycreekschools.org</string>
+<string name="kayali_name">Mazen Kayali</string>
+<string name="kayali_phone">720.747.3898</string>
+<string name="kayali_email">mkayali2@cherrycreekschools.org</string>
+<string name="lowe_name">Arlandus Lowe</string>
+<string name="lowe_phone">720.747.3723</string>
+<string name="lowe_email">alowe2@cherrycreekschools.org</string>
+<string name="miller_name">Mike Miller</string>
+<string name="miller_phone">720.747.3798</string>
+<string name="miller_email">mmiller80@cherrycreekschools.org</string>
+<string name="watson_name">Taryn Watson</string>
+<string name="watson_phone">720.747.3628</string>
+<string name="watson_email">twatson8@cherrycreekschools.org</string>
+</resources>

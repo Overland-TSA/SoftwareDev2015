@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cate_name">Abby Cate</string>
+<string name="cate_phone">undefined</string>
+<string name="cate_email">undefined</string>
+<string name="eidson_name">Eric Eidson</string>
+<string name="eidson_phone">720.747.3657</string>
+<string name="eidson_email">eeidson5@cherrycreekschools.org</string>
+<string name="marty_jacob_name">Marty Jacob</string>
+<string name="marty_jacob_phone">720.747.3787</string>
+<string name="marty_jacob_email">mjacob2@cherrycreekschools.org_email</string>
+<string name="monarch_name">Ryan Monarch</string>
+<string name="monarch_phone">720.747.3786</string>
+<string name="monarch_email">rmonarch@cherrycreekschools.org</string>
+<string name="smith_name">Hannah Smith</string>
+<string name="smith_phone">720.747.3517</string>
+<string name="smith_email">hsmith26@cherrycreekschools.org</string>
+</resources>

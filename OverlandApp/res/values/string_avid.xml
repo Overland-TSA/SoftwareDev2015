@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="schickling_name">Kara Schickling</string>
+<string name="schickling_phone">720.747.3610</string>
+<string name="schickling_email">kschickling@cherrycreekschools.org</string>
+<string name="kendrick_avid_name">Lara Kendrick</string>
+<string name="kendrick_avid_phone">720.747.3757</string>
+<string name="kendrick_avid_email">lkendrick2@cherrycreekschools.org</string>
+<string name="malone_avid_name">Shealyn Malone</string>
+<string name="malone_avid_phone">720.747.3494</string>
+<string name="malone_avid_email">smalone7@cherrycreekschools.org</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="strompolos_name">Elaine Strompolos</string>
+<string name="strompolos_phone">720.747.3854</string>
+<string name="strompolos_email">estrompolos@cherrycreekschools.org?</string>
+<string name="duffy_name">Bridget Duffy</string>
+<string name="duffy_phone">720.747.3754</string>
+<string name="duffy_email">bduffy3@cherrycreekschools.org</string>
+<string name="gilfillan_name">Joyce Gilfillan</string>
+<string name="gilfillan_phone">720.747.3790</string>
+<string name="gilfillan_email">jgilfillan@cherrycreekschools.org</string>
+<string name="kane_name">Kathy Kane</string>
+<string name="kane_phone">720.747.3766</string>
+<string name="kane_email">kkane3@cherrycreekschools.org</string>
+</resources>

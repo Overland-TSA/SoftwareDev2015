@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hofmann_name">Julie Hofmann</string>
+<string name="hofmann_phone">720.747.3612</string>
+<string name="hofmann_email">jhofmann4@cherrycreekschools.org</string>
+<string name="marietta_name">Lori Marietta</string>
+<string name="marietta_phone">720.747.3623</string>
+<string name="marietta_email">lmarietta@cherrycreekschools.org</string>
+<string name="tomashuk_name">Yaroslav Tomashuk</string>
+<string name="tomashuk_phone">720.747.3823</string>
+<string name="tomashuk_email">ytomashuk@cherrycreekschools.org</string>
+</resources>

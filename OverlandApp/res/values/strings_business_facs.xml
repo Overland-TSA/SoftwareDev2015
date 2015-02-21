@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ord_name">Patti Ord</string>
+<string name="ord_phone">720.747.3827</string>
+<string name="ord_email">pord@cherrycreekschools.org</string>
+<string name="campos_brown_name">Rallie Campos-Brown</string>
+<string name="campos_brown_phone">720.747.3753</string>
+<string name="campos_brown_email">ocampos-brown@cherrycreekschools.org</string>
+<string name="deb_lacour_name">Deb LaCour</string>
+<string name="deb_lacour_phone">720.747.3866</string>
+<string name="deb_lacour_email">dlacour2@cherrycreekschools.org</string>
+<string name="oriley_name">Patrick O\'Riley</string>
+<string name="oriley_phone">720.747.3852</string>
+<string name="oriley_email">poriley@cherrycreekschools.org</string>
+<string name="ocana_name">Roberto Ocaña</string>
+<string name="ocana_phone">720.747.3850</string>
+<string name="ocana_email">rocana2@cherrycreekschools.org</string>
+</resources>

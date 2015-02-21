@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mccreesh_name">Megan McCreesh</string>
+<string name="mccreesh_phone">720.747.3793</string>
+<string name="mccreesh_email">mmccreesh@cherrycreekschools.org</string>
+<string name="baumann_name">Lola Baumann</string>
+<string name="baumann_phone">720.747.3847</string>
+<string name="baumann_email">lbaumann2@cherrycreekschools.org</string>
+<string name="duncan_name">Meg Duncan</string>
+<string name="duncan_phone">720.747.3825</string>
+<string name="duncan_email">mduncan7@cherrycreekschools.org</string>
+<string name="jakubcin_name">Callie Jakubcin</string>
+<string name="jakubcin_phone">720.747.3846</string>
+<string name="jakubcin_email">cjakubcin2@cherrycreekschools.org</string>
+<string name="liu_name">Yingxin Liu</string>
+<string name="liu_phone">720.747.3477</string>
+<string name="liu_email">yliu6@cherrycreekschools.org</string>
+<string name="mooney_name">Zehra Mooney</string>
+<string name="mooney_phone">720.747.3477</string>
+<string name="mooney_email">zmooney2@cherrycreekschools.org</string>
+<string name="moore_name">Dottie Moore</string>
+<string name="moore_phone">720.747.3707</string>
+<string name="moore_email">dmoore@cherrycreekschools.org</string>
+<string name="osuna_name">Kelly Osuna</string>
+<string name="osuna_phone">720.747.3816</string>
+<string name="osuna_email">kosuna@cherrycreekschools.org</string>
+<string name="perera_alcalde_name">Rocio Perera-Alcalde</string>
+<string name="perera_alcalde_phone">720.747.3899</string>
+<string name="perera_alcalde_email">rperera-alcalde@cherrycreekschools.org</string>
+<string name="robinson_name">Erin Robinson</string>
+<string name="robinson_phone">720.747.3768</string>
+<string name="robinson_email">erobinson14@cherrycreekschools.org</string>
+</resources>
